@@ -1,0 +1,11 @@
+
+.box08 {
+  background: linear-gradient(135deg, #001f3f, #005f8f, #00aaff);
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: 1px solid #001f3f;
+  display: flex;
+}
