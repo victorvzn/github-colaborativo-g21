@@ -24,9 +24,8 @@
     animation: girar 0.5s ;
   }
 
-  .box01:active {
-    background-position: 100% 50%;
-    animation: girar 2s infinite linear;
+  .box01.clicked {
+    animation: girar 0.8s infinite linear;
   }
   @keyframes girar {
     from {
