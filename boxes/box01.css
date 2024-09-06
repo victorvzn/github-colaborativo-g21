@@ -1,23 +1,45 @@
 .box01 {
-    background: linear-gradient(45deg, #00008b, #f90415, #5d01a9);
-    background-size: 200% 200%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 16px;
-    transition: background-position 3s ease, cursor 0.3s ease;
-    border-radius: 1rem;
-    text-align: center;
-    padding-right: 10px;
-  }
+  background: linear-gradient(45deg,#59047a, #59047a ,#59047a, #f11860,#05f5f5, #f11860, #59047a, #59047a, #59047a);
+  background-size: 200% 200%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  border-radius: 1rem;
+  text-align: center;
+  padding-right: 10px;
+  animation: wave 5s infinite linear;
+  cursor: pointer;
+}
 
-  .box01 img {
-    height: 50px;
-    margin: 10px;
-  }
+.box01 img {
+  height: 50px;
+  margin: 10px;
+}
 
-  .box01:hover {
-    cursor: pointer;
-    background-position: 100% 50%;
+.box01 img:hover {
+  cursor: pointer;
+  animation-iteration-count: 5;
+  animation: girar 0.5s ;
+}
+
+.box01.clicked {
+  animation: girar 0.8s infinite linear;
+}
+@keyframes girar {
+  from {
+      transform: rotate(0deg);
   }
+  to {
+      transform: rotate(360deg);
+  }
+}
+@keyframes wave {
+0% {
+    background-position: 0% 50%;
+}
+100% {
+    background-position: 200% 50%;
+}
+}
