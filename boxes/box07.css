@@ -1,13 +1,32 @@
 .box07{
     background: radial-gradient(circle, rgba(192,182,242,1) 0%, rgba(114,177,231,1) 26%, rgba(32,151,161,1) 50%, rgba(95,117,117,1) 60%, rgba(11,125,121,1) 61%, rgba(68,10,150,1) 78%, rgba(19,67,252,1) 100%);
     font-size: medium;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 700;
-    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
 
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10px;
+
+    color: #3498db;
+    animation: efectoGlow 3s ease-in-out infinite;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
+
+@keyframes efectoGlow {
+    0% {
+      color: #3498db;
+      text-shadow: 2px 2px 10px #3498db;
+    }
+    50% {
+      color: #ffffff;
+      text-shadow: 2px 2px 20px #e74c3c;
+    }
+    100% {
+      color: #3498db;
+      text-shadow: 2px 2px 10px #3498db;
+    }
+  }
