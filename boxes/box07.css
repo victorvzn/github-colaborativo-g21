@@ -4,4 +4,9 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
     color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
