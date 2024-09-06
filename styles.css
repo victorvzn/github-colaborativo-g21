@@ -1,3 +1,55 @@
-body {
-  background-color: red;
+@import './boxes/box00.css';
+@import './boxes/box01.css';
+@import './boxes/box02.css';
+@import './boxes/box03.css';
+@import './boxes/box04.css';
+@import './boxes/box05.css';
+@import './boxes/box06.css';
+@import './boxes/box07.css';
+@import './boxes/box08.css';
+@import './boxes/box09.css';
+@import './boxes/box10.css';
+@import './boxes/box11.css';
+@import './boxes/box12.css';
+@import './boxes/box13.css';
+@import './boxes/box14.css';
+@import './boxes/box15.css';
+@import './boxes/box16.css';
+@import './boxes/box17.css';
+@import './boxes/box18.css';
+@import './boxes/box19.css';
+@import './boxes/box20.css';
+@import './boxes/box21.css';
+@import './boxes/box22.css';
+@import './boxes/box23.css';
+@import './boxes/box24.css';
+
+h1 {
+  text-align: center;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: min(100%, 800px);
+  margin: 0 auto;
+}
+
+section {
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(4, 160px);
+  grid-template-rows: repeat(8, 80px);
+  gap: 1rem;
+}
+
+article {
+  background-color: #aed;
+  outline: 3px solid #9dc;
+  border-radius: .5rem;
+
+  display: grid;
+  place-content: center;
+}
+
