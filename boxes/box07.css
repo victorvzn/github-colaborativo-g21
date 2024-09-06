@@ -1,9 +1,9 @@
 .box07{
     background: radial-gradient(circle, rgba(192,182,242,1) 0%, rgba(114,177,231,1) 26%, rgba(32,151,161,1) 50%, rgba(95,117,117,1) 60%, rgba(11,125,121,1) 61%, rgba(68,10,150,1) 78%, rgba(19,67,252,1) 100%);
     font-size: medium;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 700;
-    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
 
     display: flex;
     flex-direction: row;
