@@ -1,5 +1,8 @@
 .box10 {
     background-color: darkgreen;
-    color:brown;
+    color:rgb(123, 10, 229);
+    font-size: 3rem;
+    background-image:url(../imagenes/curso.jpg) ;
+    background-size: 100%;
 
 }
