@@ -1,0 +1,23 @@
+.box01 {
+    background: linear-gradient(45deg, #00008b, #1e90ff, #5d01a9);
+    background-size: 200% 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    transition: background-position 3s ease, cursor 0.3s ease;
+    border-radius: 1rem;
+    text-align: center;
+    padding-right: 10px;
+  }
+
+  .box01 img {
+    height: 50px;
+    margin: 10px;
+  }
+
+  .box01:hover {
+    cursor: pointer;
+    background-position: 100% 50%;
+  }
