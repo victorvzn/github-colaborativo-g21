@@ -1,4 +1,8 @@
 .box17 {
-    background-color: rgb(21, 0, 255);
-    color: brown;
-  }
+    background-color: rgb(21, 0, 255); /* Azul */
+    color: brown; /* Marrón */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}

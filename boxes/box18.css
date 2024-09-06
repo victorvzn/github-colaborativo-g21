@@ -1,7 +1,16 @@
-.box18{
-  background-color: rgb(67, 180, 58);
+.box18 {
+  background: linear-gradient(45deg, rgb(66, 87, 64), rgb(90, 200, 250));
   color: white;
   font-weight: bold;
   font-size: 1.2rem;
   letter-spacing: 2px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.box18:hover {
+  transform: scale(1.05);
 }
