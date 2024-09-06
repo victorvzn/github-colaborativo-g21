@@ -16,4 +16,13 @@ git push -u origin main
 
 git push origin main
 git push
+
+git switch -c victor
+git branch
+
+git switch main
+git checkout main
+
+git checkout victor
+git switch victor
 ```
