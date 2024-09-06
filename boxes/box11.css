@@ -9,7 +9,7 @@
   border-radius: 10px; /* Redondea los bordes */
   font-size: 16px; /* Tamaño de fuente adecuado */
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 10px;
   border: none; /* Elimina bordes */
   position: relative;
   z-index: 1;
