@@ -1,4 +1,6 @@
 .box03 {
-    background-color: rgb(240, 207, 100);
+    /*background-color: rgb(240, 207, 100);*/
+    background: linear-gradient(135deg, #7e612c, #d0d672, #f8f8d8);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: gray;
   }

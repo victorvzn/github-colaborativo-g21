@@ -18,28 +18,28 @@
   margin: 10px;
 }
 
-.box01 img:hover {
-  cursor: pointer;
-  animation-iteration-count: 5;
-  animation: girar 0.5s ;
-}
+  .box01 img:hover {
+    cursor: pointer;
+    animation-iteration-count: 5;
+    animation: girar 0.5s ;
+  }
 
-.box01.clicked {
-  animation: girar 0.8s infinite linear;
-}
-@keyframes girar {
-  from {
-      transform: rotate(0deg);
+  .box01.clicked {
+    animation: girar 0.8s infinite linear;
   }
-  to {
-      transform: rotate(360deg);
-  }
+  @keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 @keyframes wave {
-0% {
-    background-position: 0% 50%;
-}
-100% {
-    background-position: 200% 50%;
-}
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 200% 50%;
+  }
 }
