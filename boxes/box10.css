@@ -1,8 +1,10 @@
 .box10 {
     background-color: darkgreen;
-    color:rgb(123, 10, 229);
-    font-size: 3rem;
+    color:gold;
+    font-size: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image:url(../imagenes/curso.jpg) ;
     background-size: 100%;
+    
 
 }
