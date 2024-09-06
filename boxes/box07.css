@@ -1,0 +1,12 @@
+.box07{
+    background: radial-gradient(circle, rgba(192,182,242,1) 0%, rgba(50,19,252,1) 100%);
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
