@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.box11 {
+  background-color: #FF0000; /* Fondo rojo sólido */
+  font-family: 'Poppins', sans-serif; /* Fuente estilizada pero delgada */
+  color: #ffcc00; /* Color dorado para el texto */
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px; /* Redondea los bordes */
+  font-size: 16px; /* Tamaño de fuente adecuado */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none; /* Elimina bordes */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  animation: float 4s ease-in-out infinite; /* Movimiento suave */
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.box11::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: none; /* No hay capas que bloqueen el fondo */
+  z-index: -1;
+}
+
+.box11:hover {
+  transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+  transition: transform 0.4s ease;
+}
