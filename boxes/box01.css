@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 .box01 {
   background: linear-gradient(45deg,#59047a, #59047a ,#59047a, #f11860,#05f5f5, #f11860, #59047a, #59047a, #59047a);
   background-size: 200% 200%;
@@ -5,8 +6,10 @@
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 16px;
   border-radius: 1rem;
+  font-family: "Caveat", cursive;
+  font-size: 18px;
+  font-weight: 600;
   text-align: center;
   padding-right: 10px;
   animation: wave 5s infinite linear;
