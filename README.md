@@ -10,4 +10,10 @@ git commit -m "mi mensaje"
 git log
 
 git branch -M main
+
+git remote add origin https://github.com/victorvzn/github-colaborativo-g21.git
+git push -u origin main
+
+git push origin main
+git push
 ```
